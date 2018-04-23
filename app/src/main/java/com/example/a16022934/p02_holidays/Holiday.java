@@ -4,8 +4,9 @@ public class Holiday {
     String name;
     String date;
     String desc;
+    int res;
 
-    public Holiday(String name, String date, String desc) {
+    public Holiday(String name, String date, String desc, int res) {
         this.name = name;
         this.date = date;
         this.desc = desc;
@@ -33,5 +34,13 @@ public class Holiday {
 
     public void setDesc(String desc) {
         this.desc = desc;
+    }
+
+    public int getRes() {
+        return res;
+    }
+
+    public void setRes(int res) {
+        this.res = res;
     }
 }

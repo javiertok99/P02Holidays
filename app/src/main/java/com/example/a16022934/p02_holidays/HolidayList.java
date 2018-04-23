@@ -23,9 +23,9 @@ public class HolidayList extends AppCompatActivity {
 
         holidayLv = findViewById(R.id.lvHolidays);
         holiday = new ArrayList<Holiday>();
-        holiday.add(new Holiday("New Year", "1 Jan 2018", "First Day of the year!"));
-        holiday.add(new Holiday("Labour Day", "1 May 2018", "Celebrate the achievement of workers"));
-        holiday.add(new Holiday("National Day", "8 Aug 2018", "Commemorate the independence of Singapore from Malaysia"));
+        holiday.add(new Holiday("New Year", "1 Jan 2018", "First Day of the year!", R.drawable.cny));
+        holiday.add(new Holiday("Labour Day", "1 May 2018", "Celebrate the achievement of workers", R.drawable.labourday));
+        holiday.add(new Holiday("National Day", "8 Aug 2018", "Commemorate the independence of Singapore from Malaysia", R.drawable.nationalday));
 
         aa = new HolidayAdapter(this, R.layout.row, holiday);
         holidayLv.setAdapter(aa);
