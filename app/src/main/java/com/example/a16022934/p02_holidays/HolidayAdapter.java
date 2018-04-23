@@ -55,8 +55,6 @@ public class HolidayAdapter extends ArrayAdapter<Holiday>{
             ivIcon.setImageResource(R.drawable.nationalday);
         }else if(currentHoliday.name.equals("Hari Raya Haji")){
             ivIcon.setImageResource(R.drawable.harirayahaji);
-        }else if(currentHoliday.name.equals("National Day")){
-            ivIcon.setImageResource(R.drawable.nationalday);
         }else if(currentHoliday.name.equals("Deepavali")){
             ivIcon.setImageResource(R.drawable.deepavali);
         }else if(currentHoliday.name.equals("Christmas Day")){
