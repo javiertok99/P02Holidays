@@ -3,10 +3,12 @@ package com.example.a16022934.p02_holidays;
 public class Holiday {
     String name;
     String date;
+    String desc;
 
-    public Holiday(String name, String date) {
+    public Holiday(String name, String date, String desc) {
         this.name = name;
         this.date = date;
+        this.desc = desc;
     }
 
     public String getName() {
@@ -23,5 +25,13 @@ public class Holiday {
 
     public void setDate(String date) {
         this.date = date;
+    }
+
+    public String getDesc() {
+        return desc;
+    }
+
+    public void setDesc(String desc) {
+        this.desc = desc;
     }
 }
